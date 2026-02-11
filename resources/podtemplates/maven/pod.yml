@@ -13,7 +13,8 @@ spec:
       value: "-Xss4m"
     tty: true
   - name: open-jdk17
-    image: openjdk:17-jdk-slim
+    //image: openjdk:17-jdk-slim
+    image: openjdk:17-jdk-jammy
     command:
     - cat
     env:
